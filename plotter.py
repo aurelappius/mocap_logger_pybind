@@ -40,7 +40,7 @@ while(plotflag):
 	pi_plt.scatter(DATA[:,0],DATA[:,5], marker="o", s=1, c="red")
 	ya_plt.scatter(DATA[:,0],DATA[:,6], marker="o", s=1, c="red")
 	N+=DATA.shape[0]
-	plt.pause(0.0001)
+	plt.pause(0.01)
 	plt.show()
  	
 
